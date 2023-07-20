@@ -10,7 +10,7 @@
 <body>
     <form>
         <div>
-            <Label>Name: </Label><input type="text" name="myName" placeholder="Enter your name" required>
+            <Label for="name">Name: </Label><input type="text" name="myName" id="name" placeholder="Enter your name" required>
         </div><br>
         <div>
             <Label>Role: </Label><input type="text" name="myRole" placeholder="Enter your Designation">
@@ -25,19 +25,28 @@
             <Label>Bonus: </Label><input type="number" name="myBonus" min="9" >
         </div><br>
         <div>
-            <Label>I Agree: </Label><input type="checkbox" >
+            <Label for="agree">I Agree: </Label><input type="checkbox" id="agree" checked >
         </div><br>
         <div>
             <Label>Gender: </Label>
             <label >Male</label><input type="radio" name="myGender">
-            <label >Female</label><input type="radio" name="myGender">
-            <label >Others</label><input type="radio" name="myGender">
+            <label >Female</label><input type="radio" name="myGender" >
+            <label >Others</label><input type="radio" name="myGender" >
         </div><br>
         <div>
             <textarea name="" id="" cols="30" rows="10" placeholder="Write your feedback"></textarea>
-        </div>
+        </div><br>
+        <div>
+            <label for="project">Project:</label>
+            <select name="" id="project">
+                <option value="cntd">Cognizaent</option>
+                <option value="croma">Croma</option>
+                <option value="Titan">Titan</option>
+            </select>
+        </div><br>
             <input type="submit" name="submit">
             <input type="reset" name="reset" >
+            
     </form>
 </body>
 
