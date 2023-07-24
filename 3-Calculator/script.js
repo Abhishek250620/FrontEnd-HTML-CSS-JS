@@ -12,11 +12,14 @@ function clearDisplay() {
 }
 
 function calculate() {
-    try {
-        equation = eval(equation).toString();
-        display.value = equation;
-    } catch (error) {
-        equation='';
-        display.value = 'Syntax Error';
+    if (equation != '') {
+        try {
+            console.log(equation);
+            equation = eval(equation).toString();
+            display.value = equation;
+        } catch (error) {
+            equation = '';
+            display.value = 'Syntax Error';
+        }
     }
 }

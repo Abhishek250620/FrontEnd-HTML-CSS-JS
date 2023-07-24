@@ -15,8 +15,10 @@
     color: white;
     width: 500px;
     padding: 5px;
+    padding-bottom: 1px;
    margin: auto;
    margin-top: 50px;
+   border-radius: 10px;
   }
   
   
