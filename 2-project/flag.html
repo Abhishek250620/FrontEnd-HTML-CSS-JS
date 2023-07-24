@@ -5,67 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>India Flag</title>
     <style>
-        body {
-            margin: 0;
-            padding: 0;
+        /* Set the background color of the box */
+        .orange {
+            /* width: 200px; Adjust the width as per your requirement */
+            height: 250px; /* Adjust the height as per your requirement */
+            background-color: orange;
         }
-
-        .flag {
-            width: 300px;
-            height: 200px;
-            background-color: #FF9933; /* Saffron color */
-            position: relative;
+        .white {
+            /* width: 200px; Adjust the width as per your requirement */
+            height: 250px; /* Adjust the height as per your requirement */
+            background-color: white;
         }
-
-        .stripe-white {
-            height: 66.66%;
-            background-color: #FFFFFF; /* White color */
+        .green {
+            /* width: 200px; Adjust the width as per your requirement */
+            height: 250px; /* Adjust the height as per your requirement */
+            background-color: green;
         }
-
-        .stripe-green {
-            height: 33.34%;
-            background-color: #138808; /* Green color */
+        img{
+            padding-left: 600px;
+            height: 250px;
         }
-
-        .circle {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 60px;
-            height: 60px;
-            background-color: #000080; /* Navy Blue color */
-            border-radius: 50%;
-        }
-
-        .spoke {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 2px;
-            height: 30px;
-            background-color: #FFFFFF; /* White color */
-            transform-origin: 50% 100%;
-        }
-
-        /* Spoke positions */
-        .spoke:nth-child(1) { transform: translate(-50%, -50%) rotate(15deg); }
-        .spoke:nth-child(2) { transform: translate(-50%, -50%) rotate(30deg); }
-        .spoke:nth-child(3) { transform: translate(-50%, -50%) rotate(45deg); }
-        /* ... and so on up to 24 spokes */
     </style>
 </head>
 <body>
-    <div class="flag">
-        <div class="stripe-white"></div>
-        <div class="stripe-green"></div>
-        <div class="circle">
-            <!-- Spokes -->
-            <div class="spoke"></div>
-            <div class="spoke"></div>
-            <div class="spoke"></div>
-            <!-- ... and so on up to 24 spokes -->
-        </div>
-    </div>
+    <!-- Create the empty box with the orange background -->
+    <div class="orange"></div>
+    <div class="white"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Ashoka_Chakra_1.svg/800px-Ashoka_Chakra_1.svg.png" alt=""></div>
+    <div class="green"></div>
 </body>
 </html>
