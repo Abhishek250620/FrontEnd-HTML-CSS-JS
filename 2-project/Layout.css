@@ -5,9 +5,11 @@ body {
 }
 
 header {
+    /* width: 100%; */
+    /* position: fixed; */
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -15,6 +17,8 @@ nav {
     background-color: #444;
     color: #fff;
     padding: 10px;
+    width: 100%;
+    /* position: fixed; */
 }
 
 nav ul {
@@ -61,8 +65,9 @@ article {
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
+    /* position: fixed; */
+    /* bottom: 0; */
+    padding: 10px;
     width: 100%;
     background-color: #333;
     color: #fff;
