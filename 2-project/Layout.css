@@ -11,14 +11,12 @@
     margin-left: 30px;
     width: 300px;
     height: 112px;
-    /* border: 3px solid white; */
 }
 
 .logo {
     margin-left: 15px;
     width: 150px;
     height: 44px;
-    /* border: 3px solid white; */
 }
 
 nav {
@@ -28,7 +26,6 @@ nav {
     height: 130px;
     width: 100%;
     margin-bottom: 30px;
-    /* position: fixed; */
 }
 
 nav ul {
@@ -55,22 +52,20 @@ hr {
     margin-top: 30px;
 }
 
-main{
-height: 2000px;
+main {
+    height: 2000px;
 }
 
 section {
     display: flex;
     justify-content: space-between;
-    /* padding: 20px; */
-    
+
 }
 
 .main-section {
     width: 50%;
     height: 520px;
     padding-left: 15px;
-    /* border: 3px solid black; */
 }
 
 .divbottom {
@@ -81,18 +76,18 @@ section {
     margin-left: 10px;
 }
 
-.purchase-btn{
-background-color: transparent;
-border: 1px solid #fff;
-color: #fff;
-height: 50px;
-width: 150px;
-margin-top: 25px;
-margin-left: 150px;
-font-size: 17px;
+.purchase-btn {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    height: 50px;
+    width: 150px;
+    margin-top: 25px;
+    margin-left: 150px;
+    font-size: 17px;
 }
 
-.purchase-btn:hover{
+.purchase-btn:hover {
     background-color: #fff;
     color: #333;
 }
@@ -103,12 +98,10 @@ font-size: 17px;
 
 .sub-div2 {
     display: inline-flex;
-    vertical-align: top;
     width: 334px;
     height: 246px;
     margin-left: 30px;
-    /* margin-top: 30px; */
-    /* border: 2px solid black; */
+    justify-content: center;
 }
 
 .left-ban-txt {
@@ -122,13 +115,14 @@ font-size: 17px;
     margin-bottom: 20px;
 }
 
-.rigth-h3{
+.rigth-h3 {
     color: #fff;
     display: flex;
     justify-content: center;
+    height: 1px;
     font-size: 25px;
-    margin-top: 80px;
-    margin-left: 45%;
+    margin-top: 90px;
+    margin-left: 40px;
 }
 
 .ban-span {
@@ -144,19 +138,10 @@ font-size: 17px;
     margin-right: 70px;
 }
 
-.rigth-span {
-    color: #fff;
-    font-style: oblique;
-    font-size: 15px;
-    /* margin-left: 80px; */
-}
-
-
 footer {
     padding: 10px;
     width: 100%;
     background-color: #333;
     color: #fff;
     text-align: center;
-    /* padding: 10px; */
 }
